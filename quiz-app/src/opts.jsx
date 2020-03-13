@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import { data } from "./data.js";
 
 class Opts extends Component {
   state = {
@@ -7,8 +6,8 @@ class Opts extends Component {
   };
 
   handleClick = () => {
-    console.log(this.props.potato);
-    let result = data.ans;
+    //console.log(this.props.potato);
+    let result = "right";
 
     if (result === "right") {
       return this.setState({ cls: "right" });
@@ -20,7 +19,7 @@ class Opts extends Component {
   render() {
     return (
       <div className={this.state.cls} onClick={this.handleClick}>
-        Kathmandu
+        {this.props.optName}
       </div>
     );
   }
