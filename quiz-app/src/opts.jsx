@@ -7,9 +7,9 @@ class Opts extends Component {
 
   handleClick = () => {
     //console.log(this.props.potato);
-    let result = "right";
+    let result = this.props.ansName;
 
-    if (result === "right") {
+    if (result === this.props.optName) {
       return this.setState({ cls: "right" });
     } else {
       return this.setState({ cls: "wrong" });

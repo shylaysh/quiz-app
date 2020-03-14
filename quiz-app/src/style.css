@@ -30,6 +30,7 @@ footer {
   background-color: rgb(243, 179, 243);
   padding: 10px 20px;
   font-weight: bold;
+  cursor: pointer;
 }
 
 .wrong {
@@ -49,4 +50,5 @@ footer {
 .btn {
   background-color: rgb(181, 77, 241);
   padding: 8px;
+  cursor: pointer;
 }

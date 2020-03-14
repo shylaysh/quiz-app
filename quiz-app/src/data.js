@@ -8,5 +8,15 @@ export const data = [
     ques: "How many strings are there in guitar?",
     ops: ["4", "6", "7"],
     ans: 1
+  },
+  {
+    ques: "What is the natural satellite of our planet?",
+    ops: ["Moon", "Orion", "Trila"],
+    ans: 0
+  },
+  {
+    ques: "What is the technical name of Corona virus?",
+    ops: ["Tepid-18", "Covid-19", "Omid-95"],
+    ans: 1
   }
 ];
