@@ -3,7 +3,8 @@ import "./App.css";
 import Header from "./header";
 import Footer from "./footer";
 import Main from "./main";
-import "./style.css";
+
+//import "./style.css";
 
 function App() {
   return (

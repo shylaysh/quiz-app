@@ -18,5 +18,10 @@ export const data = [
     ques: "What is the technical name of Corona virus?",
     ops: ["Tepid-18", "Covid-19", "Omid-95"],
     ans: 1
+  },
+  {
+    ques: "Who is known as swor samrat of Nepal",
+    ops: ["Fattemanraj Bhandari", "Arun Thapa", "Narayan Gopal"],
+    ans: 2
   }
 ];
